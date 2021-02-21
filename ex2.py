@@ -9,5 +9,3 @@ print("I could have code like this") # and comments after the statement
 # print("this won't run")
 
 print("this will run")
-
-# test git reset
