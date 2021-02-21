@@ -1,3 +1,5 @@
+print("Let's practice using the octothorpe")
+
 # Comments, so we can read the program later
 # Anything after the comment is ignored
 
