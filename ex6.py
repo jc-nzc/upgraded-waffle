@@ -7,3 +7,13 @@ y = f"Those who know {binary} and those who {do_not}."
 
 print(x)
 print(y)
+
+hilarious = True
+joke_evaluation = "Isn't that joke kinda funny?! {}"
+
+print(joke_evaluation.format(hilarious))
+
+w = "This is the left side of..."
+e = "a string with a right side."
+
+print(w + e)
