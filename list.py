@@ -7,6 +7,9 @@ print(thislist[:2])
 if "agv" in thislist:
   print("Yes, 'Ale is present' is in the fruits list")
 
+if "jac" in thislist:
+    print(True)
+
 print(len(thislist))
 
 print(type(thislist))
@@ -15,3 +18,11 @@ print(type(thislist))
 thatlist = list(("peanuts", "tofu", "fruit rollup")) # note the double round-brackets
 
 print(thatlist)
+
+
+# change an item in the list
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+
+thislist[2] = "blackcurrant"
+print(thislist)
