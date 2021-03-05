@@ -31,5 +31,24 @@ thislist[1:3] = ["blueberry", "dragonfruit"]
 print(thislist)
 
 hitlist = ["donut", "ale", "jorge"]
-hitlist.insert(2, "lemon")
-print(hitlist)
+# print(hitlist)
+# hitlist.insert(2, "lemon")
+# print(hitlist)
+# hitlist.insert(4, "dino")
+# print(hitlist)
+
+for i in range(len(hitlist)):
+  print(hitlist[i])
+
+print("**now this**")
+
+for i in range(len(hitlist)):
+    # hitlist.insert(0, "caviar")
+    print(hitlist[i])
+
+print('____')
+
+i = n
+while i < len(hitlist):
+    hitlist.insert(i, 'holy moly')
+    i += (n+1)
