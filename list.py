@@ -21,7 +21,7 @@ print(thatlist)
 
 
 # change an item in the list
-thislist = ["apple", "banana", "cherry", "watermelon", "lemon", "peache"]
+thislist = ["apple", "banana", "cherry", "watermelon", "lemon", "peach"]
 print(thislist)
 
 thislist[2] = "blackcurrant"
@@ -29,3 +29,7 @@ print(thislist)
 
 thislist[1:3] = ["blueberry", "dragonfruit"]
 print(thislist)
+
+hitlist = ["donut", "ale", "jorge"]
+hitlist.insert(2, "lemon")
+print(hitlist)
