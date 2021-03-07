@@ -48,11 +48,18 @@ for i in range(len(hitlist)):
 
 print('____')
 
-# i = n
-# while i < len(hitlist):
-#     hitlist.insert(i, 'holy moly')
-#     i += (n+1)
+# Example
+# https://stackoverflow.com/questions/31040525/insert-element-in-python-list-after-every-nth-element
 
+letters = ['a','b','c','d','e','f','g','h','i','j']
+i = 3
+while i < len(letters):
+    letters.insert(i, 'x')
+    i += 4
+
+print(letters)
+
+print('__ search through rhymes for text')
 rhymes = ["bones", "jones", "homes", "loans", "stones"]
 newlist = []
 
