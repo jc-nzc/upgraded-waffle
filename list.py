@@ -48,7 +48,16 @@ for i in range(len(hitlist)):
 
 print('____')
 
-i = n
-while i < len(hitlist):
-    hitlist.insert(i, 'holy moly')
-    i += (n+1)
+# i = n
+# while i < len(hitlist):
+#     hitlist.insert(i, 'holy moly')
+#     i += (n+1)
+
+rhymes = ["bones", "jones", "homes", "loans", "stones"]
+newlist = []
+
+for x in rhymes:
+  if "on" in x:
+    newlist.append(x)
+
+print(newlist)
