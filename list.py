@@ -77,3 +77,17 @@ numbers = [0, 1, 2]
 for l, n in zip(letters, numbers):
     print(f'Letter: {l}')
     print(f'Number: {n}')
+
+# another thought
+a_zip = zip(letters, numbers) #Create zip object.
+zipped_list = list(a_zip) #Convert zip to list.
+print(zipped_list)
+
+# iterate and zip through existing lists once... a,0 then b, 1, then c,2. Now append those 3 instances into a single list
+a = ['a', 'b', 'c']
+b = [0, 1, 2]
+temp = []
+for i in zip(a, b):
+    for j in i:
+        temp.append(j)
+print(temp)
