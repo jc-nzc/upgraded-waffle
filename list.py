@@ -93,7 +93,11 @@ for i in zip(a, b):
 print(temp)
 
 print("__functions exercise__")
+
 a = 35
 b = 28
 if b > a:
-  print("B is greater than a")
+  print("B is greater than A")
+else:
+  print("A is greater than B")
+
