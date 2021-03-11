@@ -101,3 +101,6 @@ if b > a:
 else:
   print("A is greater than B")
 
+c = 22
+d = 11
+if c > d: print("c is greater than d")
