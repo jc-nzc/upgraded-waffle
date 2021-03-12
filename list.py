@@ -108,3 +108,13 @@ if c > d: print("c is greater than d")
 ch = 330
 sh = 330
 print("Left") if ch > sh else print("Straight") if ch == sh else print("Right")
+
+# now lets test pass statements
+dor = 33
+sor = 200
+
+if dor != sor:
+    print("oops")
+    if sor > dor:
+        pass
+    print("howdy")
