@@ -118,3 +118,21 @@ if dor != sor:
     if sor > dor:
         pass
     print("howdy")
+
+lead = {
+    "first_name": "John",
+    "last_name": "Kravitz",
+    "phone_1": "5128318889999",
+    "email": "SimpleSyrup@donut.com"
+}
+
+print(lead)
+
+f_name = lead.get("first_name")
+print(f_name)
+l_name = lead.get("last_name")
+print(l_name)
+email = lead.get("email")
+print(email)
+phone = lead.get("phone_1")
+print(phone)
