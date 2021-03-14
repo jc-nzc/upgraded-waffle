@@ -136,3 +136,15 @@ email = lead.get("email")
 print(email)
 phone = lead.get("phone_1")
 print(phone)
+
+keys = lead.keys()
+print(keys)
+
+values = lead.values()
+print(values)
+
+list_of_things = x = lead.items()
+print(list_of_things)
+
+payloads = lead.values()
+print(payloads)
