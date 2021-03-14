@@ -148,3 +148,9 @@ print(list_of_things)
 
 payloads = lead.values()
 print(payloads)
+
+
+
+# iterate through lead for value
+for v in lead.values():
+    print(v)
