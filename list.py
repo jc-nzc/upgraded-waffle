@@ -156,3 +156,7 @@ for k in lead.keys():
 # iterate through lead for value
 for v in lead.values():
     print(v)
+
+
+if "email" in lead:
+  print("Yes, 'model' is one of the keys in the 'lead' dictionary")
