@@ -159,4 +159,6 @@ for v in lead.values():
 
 
 if "email" in lead:
-  print("Yes, 'model' is one of the keys in the 'lead' dictionary")
+  print("Yes, 'email' is one of the keys in the 'lead' dictionary")
+
+print(f"{f_name}")
