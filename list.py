@@ -162,3 +162,7 @@ if "email" in lead:
   print("Yes, 'email' is one of the keys in the 'lead' dictionary")
 
 print(f"{f_name}")
+
+# lambda example
+x = lambda a : a + 35
+print(x(5))
