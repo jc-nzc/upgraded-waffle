@@ -166,3 +166,6 @@ print(f"{f_name}")
 # lambda example
 x = lambda a : a + 35
 print(x(5))
+
+y = lambda b : b + 7
+print(y(7))
