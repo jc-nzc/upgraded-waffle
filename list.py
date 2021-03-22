@@ -169,3 +169,8 @@ print(x(5))
 
 y = lambda b : b + 7
 print(y(7))
+
+# multi arg lambda
+
+x = lambda a, b : a * b
+print(x(5, 6))
