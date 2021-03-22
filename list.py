@@ -175,7 +175,7 @@ print(y(7))
 x = lambda a, b : a * b
 print(x(5, 6))
 
-# how to use a func
+# how to use a lambda func
 
 def myfunc(n):
   return lambda a : a * n
@@ -183,3 +183,12 @@ def myfunc(n):
 mydoubler = myfunc(2)
 
 print(mydoubler(15))
+
+# lambda exer
+
+def myfunc(n):
+  return lambda a : a * n
+
+mytripler = myfunc(3)
+
+print(mytripler(15))
