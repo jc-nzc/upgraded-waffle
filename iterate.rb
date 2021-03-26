@@ -5,3 +5,5 @@ elements = []
   # pushes the i variable on the *end* of the list
   elements.push(i)
 end
+
+elements.each {|i| puts "Element was: #{i}" }
