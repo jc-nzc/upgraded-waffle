@@ -5,3 +5,13 @@ def myfunc():
   myinnerfunc()
 
 myfunc()
+
+
+y = 300
+
+def myfunc():
+  print(y)
+
+myfunc()
+
+print(y)
