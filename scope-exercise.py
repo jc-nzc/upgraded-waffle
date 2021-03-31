@@ -7,8 +7,7 @@ def myfunc():
 myfunc()
 
 
-y = 300
-
+y = 700
 def myfunc():
   print(y)
 
